@@ -33,3 +33,24 @@ git push（GitHubへ送信）
 GitHubに学習履歴が残る
 
 この流れだけは絶対に抑えないといけない。全角半角など些細なことも気を付けなければ。
+
+※追記
+VS Code上にて
+ ↓
+ファイル
+  ↓
+フォルダーを開く（Open Folder）
+ ↓
+エクスプローラーが開く
+ ↓
+これをコピペして検索
+ ↓
+C:\Users\kazyu\OneDrive\デスクトップ\JavaStudy
+ ↓
+JavaStudyフォルダを選択
+ ↓
+「フォルダーの選択」VS Code上で
+ ↓
+ファイル
+ ↓
+フォルダーを開く（Open Folder）
