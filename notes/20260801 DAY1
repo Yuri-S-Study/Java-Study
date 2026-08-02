@@ -1,0 +1,56 @@
+やったこと
+・Githubアカウントをつくる
+・Visual Studio Codeをインストール　
+・Java(JDK)をインストール
+・Gitをインストール
+・最初のプログラムを書く
+→HelloWorld.java
+・GitHubへ公開
+
+詳細
+今日(時間がかかってしまってこれを書いているのは8/2だが)はとにかく勉強の環境整備をした。
+リポジトリやらHelloWorldのコマンドの打ち方やらわからないことだらけでChatGPTに頼りきりになったがなんとかひと段落。
+とにかくDAY2から覚える流れとして、
+
+notesを右クリック
+        ↓
+新しいファイル作成（〇〇.java）
+        ↓
+コードを書く
+        ↓
+Ctrl + S（保存）
+        ↓
+実行確認
+        ↓
+git status（変更確認）
+        ↓
+git add .（追加）
+        ↓
+git commit -m "内容"（記録）
+        ↓
+git push（GitHubへ送信）
+        ↓
+GitHubに学習履歴が残る
+
+この流れだけは絶対に抑えないといけない。全角半角など些細なことも気を付けなければ。
+
+※追記
+VS Code上にて
+ ↓
+ファイル
+  ↓
+フォルダーを開く（Open Folder）
+ ↓
+エクスプローラーが開く
+ ↓
+これをコピペして検索
+ ↓
+C:\Users\kazyu\OneDrive\デスクトップ\JavaStudy
+ ↓
+JavaStudyフォルダを選択
+ ↓
+「フォルダーの選択」VS Code上で
+ ↓
+ファイル
+ ↓
+フォルダーを開く（Open Folder）
