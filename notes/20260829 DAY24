@@ -1,0 +1,17 @@
+やったこと
+progateでクラス・メソッド編に突入
+特にメソッドの基本情報を復習
+
+詳細
+class main {
+　public static void main(String[] args){
+    この後に
+    メソッド名();
+    そしてメソッドを定義
+    public static void メソッド名(){
+        メソッド内の処理実行
+    }
+}
+
+このような形になる。
+この形、public static void を覚える事が必須。
