@@ -1,0 +1,10 @@
+やったこと
+スッキリわかるJava入門でChapter15を最後まで学習。
+
+詳細
+java.timeパッケージのAPIを用いるとより安全かつ便利に日付や時刻を扱う事ができる。
+厳密な時刻を格納するには、InatantクラスやzonedDateTimeクラスを用いる。
+日常的に利用する日時情報の格納にはLocalDateTimeクラスが適している。
+あいまいな日時を表現するためにLocalDateやYearMonthなど複数のクラスが準備されている。
+DurationクラスやPeriodクラスには、時間の間隔を格納できる。
+TimeAPIでは多くのクラスでnewが禁止差出れており、静的メソッドnow()やof()を用いてインスタンスを取得。
