@@ -1,0 +1,13 @@
+やったこと
+スッキリわかるJava入門でChapter17を途中まで学習。
+
+詳細
+fanallyブロックでcloseしようとすると、「シンボルを見つけられません」という厄介なエラーが発生する。
+この場合、finallyブロックの中でさらにtry-catchしなければいけなかったり、NullPointerExeptionに発生に対大生したりする必要があったりする。
+そこで、
+try(closeによる後片付けが必要な変数の宣言){
+    本来の処理
+} catch(例外の型 変数名) {
+    例外の処理
+}
+というtry-with-resources構文を使うと、closeの処理を自動で行ってくれるので、finallyブロックでcloseする必要がなくなる。
