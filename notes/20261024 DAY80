@@ -1,0 +1,9 @@
+やったこと
+progateでクラスとインスタンスを学習。
+
+詳細
+インスタンスの情報をコンソールに出力するprintDataインスタンスを作成。
+メソッド定義後、
+System.out.println("BMIは" + Math.round(this.bmi()) + "です");
+このように、thisで受け取って出力する。
+Math.roundは、最も近い整数に四捨五入するもの。
