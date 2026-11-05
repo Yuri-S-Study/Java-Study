@@ -1,0 +1,12 @@
+やったこと
+progateでカプセル化を学習。
+
+詳細
+privateを使用すると、クラスの外からはアクセスできないが、クラスの中からならアクセスできる。
+フィールドをprivateにしたとき、クラス外から安全に値を取得するため、フィールド値を返すためだけのメソッドを定義する。
+→getフィールド名 と命名し、ゲッターと言う。
+→public String getMiddleName() {
+    return this.middleName;
+}
+といように定義。
+アクセスするにはperson.getMiddleName()のようにする。peroson.はクラスのインスタンス。
