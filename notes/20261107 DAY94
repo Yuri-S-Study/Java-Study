@@ -1,0 +1,12 @@
+やったこと
+Progateでカプセル化を学習。
+
+詳細
+セッターはただの代入装置ではなくメソッドのため、ifを使用することでおかしな値を代入する事を防ぐ事が出来る。
+→public void setAge(int age) {
+    if age < 0 {
+        System.out.println("年齢は0以上でなければなりません");
+    } else {
+        this.age = age;
+    }
+}
