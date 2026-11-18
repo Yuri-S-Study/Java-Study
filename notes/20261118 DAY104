@@ -1,0 +1,7 @@
+やったこと
+progateでstaticとクラスの仲間を学習。
+
+詳細
+自分でコードを書く練習問題。
+Job job 1 = Job.DOCTER;
+１，３は同じ。1はenumの型名、2は変数名、3はenumの型名、4はenumの定数名。
